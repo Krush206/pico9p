@@ -36,8 +36,8 @@ pico_sdk_init()
 # unused parameters by design.
 # ---------------------------------------------------------------------------
 add_library(c9 STATIC
-    src/lib/proto.c
-    src/lib/fs9p.c
+    src/lib/c9/proto.c
+    src/lib/c9/fs9p.c
 )
 
 target_include_directories(c9 PUBLIC
