@@ -18,8 +18,9 @@ src/
     c9/fs9p.h     # 9P client file API
     tusb_config.h # TinyUSB configuration (CDC-only, RP2040)
   lib/
-    proto.c       # c9 protocol (de)serialization
-    fs9p.c        # c9 POSIX-like file API
+    c9/
+      proto.c     # c9 protocol (de)serialization
+      fs9p.c      # c9 POSIX-like file API
 CMakeLists.txt    # build: c9 library + pico9p executable
 ```
 
