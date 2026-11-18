@@ -54,7 +54,7 @@ cmake -DPICO_SDK_PATH=/path/to/pico-sdk-2.3.1 \
 make
 ```
 
-Outputs: `build/pico9p.elf`, `build/pico9p.bin`, `build/pico9p.uf2`.
+Outputs: `build/pico9p.elf`, `build/libc9.a`.
 
 The flash storage region defaults to the last 256 KiB of flash
 (`PICO_9P_FLASH_OFFSET=0x00180000`, `PICO_9P_FLASH_SIZE=0x00040000`). Override
