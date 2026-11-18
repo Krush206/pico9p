@@ -62,7 +62,7 @@ with `-DPICO_9P_FLASH_OFFSET=... -DPICO_9P_FLASH_SIZE=...` if needed.
 
 ## c9 library
 
-The bundled c9 library (in `src/lib/` with headers in `src/include/c9/`) is a
+The bundled c9 library (in `src/lib/c9/` with headers in `src/include/c9/`) is a
 freestanding C 9P implementation: zero dependencies, no dynamic memory, only
 `<stdint.h>`/`<string.h>`. It provides:
 
