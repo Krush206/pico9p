@@ -20,7 +20,6 @@ src/
   lib/
     proto.c       # c9 protocol (de)serialization
     fs9p.c        # c9 POSIX-like file API
-cmake/toolchain-rp2040.cmake  # ARM GCC toolchain wrapper
 CMakeLists.txt    # build: c9 library + pico9p executable
 ```
 
